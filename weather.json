@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 36.9005,
+        "lat": -1.307
+    },
+    "weather": [{
+        "id": 802,
+        "main": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+    }],
+    "base": "stations",
+    "main": {
+        "temp": 296.12,
+        "feels_like": 295.7,
+        "temp_min": 296.12,
+        "temp_max": 296.12,
+        "pressure": 1015,
+        "humidity": 47,
+        "sea_level": 1015,
+        "grnd_level": 845
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.83,
+        "deg": 88,
+        "gust": 3.35
+    },
+    "clouds": {
+        "all": 29
+    },
+    "dt": 1663660832,
+    "sys": {
+        "country": "KE",
+        "sunrise": 1663644167,
+        "sunset": 1663687753
+    },
+    "timezone": 10800,
+    "id": 198442,
+    "name": "Embakasi",
+    "cod": 200
+}
