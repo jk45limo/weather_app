@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
+  position:absolute;
+  height:100%;
+  width:100%
 }
 
 .App-logo {
@@ -35,4 +39,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Temprature{
+  float: left;
+  width: 50%;
+}
+
+.wind{
+  float: right;
+  width: 50%;
+}
+
+.Humidity{
+  float: left;
+  width: 50%;
+}
+
+.Clouds{
+  float: right;
+  width: 50%;
 }

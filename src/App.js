@@ -31,6 +31,9 @@ function App() {
       <div className= "Location">
         <h2>{data.name}</h2>
       </div>
+      <div className= "Country">
+        <h3>{data.sys ? <p>{data.sys.country}</p> : null}</h3>
+      </div>
       <div className= "Temprature">
         <h3>Temprature</h3>
         {data.main ? <p>{data.main.temp}°F</p> : null}
