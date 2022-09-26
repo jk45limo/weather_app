@@ -2,6 +2,17 @@ import './App.css';
 import axios from 'axios';
 import React, {useState} from 'react';
 
+import { Audio } from 'react-loader-spinner'
+;<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>
+
 function App() {
   const [data,setData] = useState({})
   const [location, setLocation] = useState('')
