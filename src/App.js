@@ -30,14 +30,14 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Weather app</h1>
-      <div className=" search-button">
+      <h1>WEATHER APP.</h1>
+      <div className="search-button">
         <input 
         value = {location}
         onChange = { event=>setLocation(event.target.value)}
         onKeyPress={searchLocation}
         type="text" 
-        placeholder="Search Location"/>
+        placeholder="Enter Location"/>
       </div>
       <div className= "Location">
         <h2>{data.name}</h2>
